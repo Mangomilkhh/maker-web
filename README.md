@@ -1,6 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# maker-web
 
 简体中文 | [English](./README.en-US.md)
+
+## 简介 
+
+一个关于maker-community的官方网站，使用Vue 3 + TypeScript + Element-UI 技术栈
+
+## 效果
+
+完整效果请看：[http://www.douwp.club/](http://www.douwp.club/)
 
 ## 前端主要技术 
 
@@ -33,3 +41,8 @@ yarn dev
 ```
 # Compiles and minifies for production
 yarn build
+```
+
+## 文档教程
+
+项目具体做法：[https://juejin.cn/post/7258896295616659514](https://juejin.cn/post/7258896295616659514)
