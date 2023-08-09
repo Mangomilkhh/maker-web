@@ -20,12 +20,14 @@ export default defineConfig({
     open:true
   },
   resolve: {
+    // 配置用~或者@代替src
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`, //获取src文件下的路径
     },
   },
   css: {
     preprocessorOptions: {
+      // 添加全局less文件的路径，便于在整个项目中使用相同的样式
       scss: {
         additionalData: `@use "~/styles/light.scss" as *;`,
       },
